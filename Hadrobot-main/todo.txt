@@ -1,0 +1,24 @@
+1. implement anger at open note - Done
+2. implement rule 1 - Done
+3. implement rule 2
+4. implement rule 3 (no phone numbers)
+5. implement rule 4
+6. write up an exam FAQ and add a command for it - Done
+7. add help command - Done (but make sure to keep it up to date)
+8. add study guide directions - Done
+9. add quiz extension response - Done
+10. add "hate dino" response - Done
+12. magic 8 ball for misc questions - Done
+13. add he hoo funnies - Done
+14. add "love dino" response - Done
+15. add "exam dates" response - Done
+16. add controversy
+17. update curse words to check from file
+18. maybe make folder for txt files (getting crowded)
+19. add hadro hush to delete last message (maybe recent timeframe? check privileges) - Done
+20. find out how to add config files
+21. find out how to add admins
+22. make certain commands able to be disabled 
+23. add testing mode for admin
+24. add guild integrations so i can make server specific stuff oop
+25. make "good girl hadro" trigger smile
