@@ -45,7 +45,7 @@ async def on_message(message):
         await message.channel.send('shoe')
         return
     
-    #quiet, my love
+    #hush
     if re.search(r'(?=.*hadro)((?=.*quiet)|(?=.*hush))', message.content.lower()):
         msg = await lastMessagedChannelID.fetch_message(lastSentMessageID)
         if re.search('(?=.*shoe)(?=.*thesaurus)', msg.content.lower()):
@@ -131,13 +131,21 @@ async def on_message(message):
         return
     
     #Hadjokebot silly
+    #If I wanted to make the thesaurus bit more efficient, I could take it out of the file
+    # and add a few lines of code as commented below:
     if re.search('(?=.*hadro)((?=.*joke)|(?=.*funny)|(?=.*funni)|(?=.*silly)|(?=.*goof))', message.content.lower()):
+        # if (random.random() > 0.5){
+        #    await message.channel.send('What do you call a dinosaur with an extensive vocabulary? A thesaurus!')
+        #} else {
         await message.channel.send(random.choice(list(open('the_funnies.txt'))))
+        #}
         return
     
     # if re.search('(?=.*hadro)(?=.*skibidi)', message.content.lower()):
     #     await message.channel.send('https://cdn.discordapp.com/attachments/357699039011274754/1298024344261365772/Screenshot_2024-10-21_at_1.45.14_PM.png?ex=67180edf&is=6716bd5f&hm=f4557a93eb1ce09121e66ad4dc018d253e4a28cc96c3dc26cd60041620ea1ce9&')
     #     return
+
+    #the chicken secret
     if re.search('(?=.*eat chicken)', message.content.lower()):
         await message.channel.send('would you still love me if i was a chicken?')
         return
